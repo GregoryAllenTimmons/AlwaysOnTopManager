@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'AlwaysOnTopManager'
-  ClientHeight = 306
+  ClientHeight = 308
   ClientWidth = 832
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,19 +17,18 @@ object Form1: TForm1
     Left = 0
     Top = 0
     Width = 439
-    Height = 266
+    Height = 268
     AutoComplete = False
     Align = alLeft
     Anchors = [akLeft, akTop, akRight, akBottom]
     ItemHeight = 38
     TabOrder = 0
     OnClick = ListBoxWindowsClick
-    ExplicitLeft = -4
-    ExplicitTop = -6
+    ExplicitHeight = 266
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 266
+    Top = 268
     Width = 832
     Height = 40
     Panels = <
@@ -38,15 +37,17 @@ object Form1: TForm1
         Text = 'Always On Top is On'
         Width = 300
       end>
+    ExplicitTop = 266
   end
   object ScrollBox1: TScrollBox
     Left = 439
     Top = 0
     Width = 393
-    Height = 266
+    Height = 268
     Align = alClient
     AutoSize = True
     TabOrder = 2
+    ExplicitHeight = 266
     object SpeedToggleTop: TSpeedButton
       Left = 0
       Top = 0
